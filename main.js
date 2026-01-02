@@ -8,7 +8,7 @@ touchArea.addEventListener("touchstart", function (event) {
   // event.preventDefault();
 
   // Show the hidden element by changing its style
-  // hiddenElement.style.visibility = "hidden";
+  hiddenElement.style.visibility = "hidden";
   hiddenElement.classList.remove("hidden");
   console.log("Element shown on touch");
 });

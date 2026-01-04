@@ -54,17 +54,17 @@ span.onclick = function() {
 
 
 // Function to close all modals
-  function closeAllModals() {
-    document.querySelectorAll('.modal').forEach(modal => {
-      modal.classList.display('none');
-          // modal.classList.style.display('none');
-    });
-  }
+  // function closeAllModals() {
+  //   document.querySelectorAll('.modal').forEach(modal => {
+  //     modal.classList.display('none');
+  //         // modal.classList.style.display('none');
+  //   });
+  // }
 
 // Listen for clicks anywhere on the window
-  window.addEventListener('click', function(event) {
-    // If the click is NOT inside a modal-content, close all modals
-    if (!event.target.closest('.modal')) {
-      closeAllModals();
-    }
-  });
+  // window.addEventListener('click', function(event) {
+  //   // If the click is NOT inside a modal-content, close all modals
+  //   if (!event.target.closest('.modal')) {
+  //     closeAllModals();
+  //   }
+  // });

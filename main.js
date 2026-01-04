@@ -10,12 +10,12 @@ var span = document.getElementsByClassName("close-one")[0];
 // When the user clicks on the button, open the modal
 btnOne.onclick = function() {
   modalOne.style.display = "block";
-}
+};
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modalOne.style.display = "none";
-}
+};
 
 // When the user clicks anywhere outside of the modal, close it
 // window.onclick = function(event) {
@@ -37,12 +37,12 @@ var span = document.getElementsByClassName("close-two")[0];
 // When the user clicks on the button, open the modal
 btnTwo.onclick = function() {
   modalTwo.style.display = "block";
-}
+};
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modalTwo.style.display = "none";
-}
+};
 
 // ---------------
 

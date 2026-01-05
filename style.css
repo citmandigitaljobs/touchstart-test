@@ -558,7 +558,7 @@ button {
     row-gap: 5px;
     /*     padding-bottom: 50px; */
     /*     justify-content: space-between; */
-    /*         border: 5px solid yellow; */
+/*             border: 5px solid yellow; */
   }
 
   .exercise-tile {
@@ -1063,7 +1063,7 @@ button {
     margin: auto;
     row-gap: 10px;
     /*     justify-content: space-between; */
-    /*                     border: 5px solid green; */
+/*                         border: 5px solid green; */
   }
 
   .physio-exercise-name {
@@ -1126,7 +1126,7 @@ button {
   }
 
   .exercise-name {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
     color: #5c81a1;
